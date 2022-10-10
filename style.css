@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/shadowsintolight/v15/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD5.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 120%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.calculator-app {
+    background-color: #7678ED;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    background-color: #3D348B;
+    color: #F7B801;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+}
+.header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.begin {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.output {
+    background-color: aliceblue;
+    display: flex;
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    padding-left: 15px;
+    color: black;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.union {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.number {
+    background-color: mediumturquoise;
+}
+
+.operation {
+    background-color: gold;
+}
+
+button:not(:last-child) {
+    margin-right: 20px;
+}
+
+.calculate {
+    width: 50px;
+    background-color: #F35B04;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+}
+
+
+.number:hover {
+    background-color: aqua;
+}
+
+.number:active {
+    background-color: blue;
+}
+
+.operation:hover {
+    background-color: #F35B04;
+}
+
+.operation:active {
+    background-color: #ffee00;
+}
+
+.calculate:hover {
+    background-color:#3D348B;
+}
+
+.calculate:active {
+    background-color: aqua;
+}
